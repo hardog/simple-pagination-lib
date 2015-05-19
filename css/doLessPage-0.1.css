@@ -1,0 +1,181 @@
+/*dlp-default default page style */
+.dlp-default {
+	padding: 3px;
+	margin: 3px;
+	font-size:16px;
+	text-align: center;
+	color: #000099;
+	position: relative;
+}
+
+.dlp-default a,
+.dlp-default .first,
+.dlp-default .last,
+.dlp-default .prev,
+.dlp-default .next {
+	border: #aaaadd 1px solid;
+	padding: 5px;
+	margin: 2px;
+	color: #000099;
+	cursor:pointer;
+	text-decoration: none;
+}
+
+.dlp-default a:hover,
+.dlp-default a:active {
+	border: #000099 1px solid;
+}
+
+.dlp-default .current {
+	padding: 5px;
+	margin: 2px;
+	color: #fff;
+	font-weight: bold;
+	border: #000099 1px solid;
+	background-color: #000099;
+}
+
+.dlp-default span.disabled {
+	margin: 2px;
+	color: #ddd;
+	cursor:auto;
+	border: #eee 1px solid;
+	padding:5px;
+}
+.dlp-default .pageNum{
+	width: 40px;
+	height: 26px;
+	margin-top: -2px;
+	position: relative;
+	border:#000099 1px solid;
+	text-align:center;
+	line-height:25px;
+}
+.dlp-default .pageNum{
+	top: -2px;	/*w3c*/
+	top: -1px\9;/*ie6~ie10*/
+	*top:6px;	/*ie6~ie7*/
+}
+.dlp-default .turnPage{
+	width: 31px;
+ 	padding: 1px;
+	height: 30px;
+	position: relative;
+	border:#000099 1px solid; 
+	color: #000099;
+	cursor:pointer;
+}
+.dlp-default .turnPage{
+	top: -2px;		/*w3c*/
+	top: -1px\9;		/*ie6~ie10*/
+	*top:6px;		/*ie6~ie7*/
+}
+@media screen and (min-width:0px){
+	.dlp-default .pageNum{
+		top:-2px;
+	}
+	
+	.dlp-default .turnPage{
+		top:-2px;
+	}
+}
+/*dlp-blue default page style */
+.dlp-blue {
+	font-size: 16px;
+	margin: 3px;
+	padding: 3px;
+	text-align: center;
+	color:#0061de;
+	position: relative;
+}
+
+.dlp-blue a {
+	background-position: 50% bottom;
+	color: #0061de;
+	margin: 3px;
+	padding: 5px;
+	border: #ccdbe4 1px solid;
+	text-decoration: none;
+	cursor:pointer;
+	position:relative;
+}
+
+.dlp-blue a:hover {
+	background-image: none;
+	color: #fff;
+	border: #2b55af 1px solid;
+	background-color: #3666d4;
+}
+
+.dlp-blue a:active {
+	background-image: none;
+	color: #fff;
+	border: #2b55af 1px solid;
+	background-color: #3666d4;
+}
+
+.dlp-blue .current {
+	font-weight: bold;
+	color: #000;
+}
+
+.dlp-blue span.disabled {
+	display: none;
+	cursor:auto;
+}
+
+.dlp-blue .first,
+.dlp-blue .last,
+.dlp-blue .prev,
+.dlp-blue .next {
+	margin: 3px;
+	padding:5px;
+	color: #0061de;
+	border: #ccdbe4 1px solid;
+	cursor:pointer;
+}
+
+.dlp-blue .next:hover {
+	border: #2b55af 1px solid;
+}
+
+.dlp-blue a.prev:hover {
+	border: #2b55af 1px solid;
+}
+.dlp-blue .pageNum{
+	width: 40px;
+	height: 26px;
+	margin-top: -2px;
+	position: relative;
+	border:#0061de 1px solid; 
+	line-height:25px;
+	text-align:center;
+}
+.dlp-blue .pageNum{
+	top: -2px;	/*w3c*/
+	top: -1px\9;/*ie6~ie10*/
+	*top:6px;	/*ie6~ie7*/
+}
+.dlp-blue .turnPage{
+	width: 31px;
+ 	padding: 1px;
+	height: 30px;
+	position: relative;
+	border:#0061de 1px solid; 
+	color: #0061de;
+	cursor:pointer;
+}
+.dlp-blue .turnPage{
+	top: -2px;		/*w3c*/
+	top: -1px\9;		/*ie6~ie10*/
+	*top:6px;		/*ie6~ie7*/
+}
+@media screen and (min-width:0px){
+	.dlp-blue .pageNum{
+		top:-2px;
+	}
+	
+	.dlp-blue .turnPage{
+		top:-2px;
+	}
+}
