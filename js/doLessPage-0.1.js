@@ -4,7 +4,7 @@
          var config = $.extend({
 			        	  selector:this.selector,
 			        	  isInit:true,
-			        	  rowStyle:'row',//word、row、cn
+			        	  rowStyle:'row',//en、row、cn
 			        	  theme:'dlp-default',
 			        	  keyBoardEnable:true,
 			        	  ajaxReqParam:{},
@@ -26,7 +26,7 @@
            var fillNextPrevStyle = function(){
         	   var arr = [];
         	   
-        	   if(config.rowStyle === "word"){
+        	   if(config.rowStyle === "en"){
         		   arr['prev'] = 'prev';
         		   arr['next'] = 'next';
         		   arr['first'] = 'first';
