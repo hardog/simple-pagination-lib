@@ -28,7 +28,8 @@ doLessPage 使用简介
 ------------
 ## __logicFunction__ 
   该参数由用户自行编写，其具有三个参数ajaxParam, pageParam, callback；
-  - ajaxParam 表示发送ajax请求的程序参数，用户需要传递给后台的参数可自行在此参数中定义
+  - ajaxParam
+  > 表示发送ajax请求的程序参数，用户需要传递给后台的参数可自行在此参数中定义
   - pageParam 表示分页插件页码参数具有curPage,totalPage,totalNum,perPageNum四个属性；分别表示当前请求页码，总页码，总记录数，每页记录数
   - callback 由插件自动调用的函数，需要传递总记录数作为参数
 
