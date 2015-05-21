@@ -19,17 +19,17 @@ doLessPage 使用简介
 ```
 > ### 使用示例
 >>> $(selector).doLessPage(logicFunction, config);
->>> ##### 示例说明
->>> ##### loginFunction 为用户自行编写的前台业务逻辑函数，config为一个js对象，里面包含各项配置参数，参数详见配置参数
+>>> __示例说明__
+>>> loginFunction 为用户自行编写的前台业务逻辑函数，config为一个js对象，里面包含各项配置参数，参数详见配置参数
 
 配置参数
 ------------
 > ### logicFunction 
-> #### 该参数由用户自行编写，其具有三个参数ajaxParam, pageParam, callback；
-> #### ajaxParam 表示发送ajax请求的程序参数，用户需要传递给后台的参数可自行在此参数中定义
-> #### pageParam 表示分页插件页码参数具有curPage,totalPage,totalNum,perPageNum四个属性；分别表示当前请求页码，总页码，总记录数，每页记录数
-> #### callback 由插件自动调用的函数，需要传递总记录数作为参数
+> 该参数由用户自行编写，其具有三个参数ajaxParam, pageParam, callback；
+> ajaxParam 表示发送ajax请求的程序参数，用户需要传递给后台的参数可自行在此参数中定义
+> pageParam 表示分页插件页码参数具有curPage,totalPage,totalNum,perPageNum四个属性；分别表示当前请求页码，总页码，总记录数，每页记录数
+> callback 由插件自动调用的函数，需要传递总记录数作为参数
 
 > ### config
-> #### 参数配置的对象,可选配置参数如下
->> #### 
+> 参数配置的对象,可选配置参数如下
+>> 
