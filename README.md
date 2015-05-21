@@ -7,16 +7,12 @@ doLessPage 使用简介
   
 使用方式
 ------------
-# 文件引入
-## 样式文件引入
-&gt;
-<link href="项目路径/doLessPage-0.1.css" rel="stylesheet" type="text/css"/>
-&gt;
-## js脚本文件引入
-&gt;
-<script type="text/javascript" src="(jquery CDN)/jquery-1.8.3.min.js"></script>
-<script type="text/javascript" src="项目路径/doLessPage-0.1.js"></script>
-&gt;
+### 文件引入
+#### 样式文件引入
+>\<link href="项目路径/doLessPage-0.1.css" rel="stylesheet" type="text/css"/\>
+#### js脚本文件引入
+>\<script type="text/javascript" src="(jquery CDN)/jquery-1.8.3.min.js"\>\</script\>
+>\<script type="text/javascript" src="项目路径/doLessPage-0.1.js"\>\</script\>
 
 配置参数
 ------------
