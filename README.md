@@ -7,8 +7,8 @@ doLessPage 使用简介
   
 使用方式
 ------------
-### 文件引入
-#### 样式文件引入
+> ### 文件引入
+> #### 样式文件引入
 >\<link href="项目路径/doLessPage-0.1.css" rel="stylesheet" type="text/css"/\>
 #### js脚本文件引入
 >\<script type="text/javascript" src="(jquery CDN)/jquery-1.8.3.min.js"\>\</script\>
