@@ -17,10 +17,10 @@ doLessPage 使用简介
   <script type="text/javascript" src="(jquery CDN)/jquery-1.8.3.min.js"></script>
   <script type="text/javascript" src="项目路径/doLessPage-0.1.js"></script>
 ```
->> ### 使用示例
+> ### 使用示例
 >>> $(selector).doLessPage(logicFunction, config);
->> ##### 示例说明
->>> ##### loginFunction 为用户自行编写的前台业务逻辑函数，config为一个js对象，里面包含各项配置参数，参数详见**配置参数**
+>>> ##### 示例说明
+>>> ##### loginFunction 为用户自行编写的前台业务逻辑函数，config为一个js对象，里面包含各项配置参数，参数详见配置参数
 
 配置参数
 ------------
