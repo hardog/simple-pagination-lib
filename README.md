@@ -44,3 +44,6 @@ doLessPage 使用简介
     程序传入的请求参数
   - pageParam 
     传入的分页参数，有四个属性可选，分别为curPage,totalPage,totalNum,perPageNum;分别表示当前请求页码，总页码，总记录数，每页记录数
+
+## __兼容性__
+  插件经过IE10浏览器内置的调试器，分别测试了IE7~IE10&chrome
