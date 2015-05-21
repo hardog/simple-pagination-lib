@@ -34,4 +34,7 @@ doLessPage 使用简介
 
 ## __config__
   参数配置的对象,可选配置参数如下
- 
+  - rowStyle
+    有三个可选项，定义插件上下分页显示的文字还是箭头，分别为en，row，cn
+  - theme
+    定义插件风格，有两个可选项，分别为dlp-default,dlp-blue
