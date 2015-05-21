@@ -7,29 +7,29 @@ doLessPage 使用简介
   
 使用方式
 ------------
-> ### 文件引入
->> ##### 样式文件引入
+> 文件引入
+>> 样式文件引入
 ```javascript
   <link href="项目路径/doLessPage-0.1.css" rel="stylesheet" type="text/css"/>
 ```
->> ##### js脚本文件引入
+>> js脚本文件引入
 ```javascript
   <script type="text/javascript" src="(jquery CDN)/jquery-1.8.3.min.js"></script>
   <script type="text/javascript" src="项目路径/doLessPage-0.1.js"></script>
 ```
-> ### 使用示例
+> 使用示例
 >>> $(selector).doLessPage(logicFunction, config);
 >>> __示例说明__
 >>> loginFunction 为用户自行编写的前台业务逻辑函数，config为一个js对象，里面包含各项配置参数，参数详见配置参数
 
 配置参数
 ------------
-> ### logicFunction 
-> 该参数由用户自行编写，其具有三个参数ajaxParam, pageParam, callback；
-> ajaxParam 表示发送ajax请求的程序参数，用户需要传递给后台的参数可自行在此参数中定义
-> pageParam 表示分页插件页码参数具有curPage,totalPage,totalNum,perPageNum四个属性；分别表示当前请求页码，总页码，总记录数，每页记录数
+> __logicFunction__ 
+>> 该参数由用户自行编写，其具有三个参数ajaxParam, pageParam, callback；
+>> ajaxParam 表示发送ajax请求的程序参数，用户需要传递给后台的参数可自行在此参数中定义
+>> pageParam 表示分页插件页码参数具有curPage,totalPage,totalNum,perPageNum四个属性；分别表示当前请求页码，总页码，总记录数，每页记录数
 > callback 由插件自动调用的函数，需要传递总记录数作为参数
 
-> ### config
+> __config__
 > 参数配置的对象,可选配置参数如下
 >> 
